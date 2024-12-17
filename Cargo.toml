@@ -1,0 +1,18 @@
+[package]
+name = "advent-of-code-2024"
+version = "0.1.0"
+authors = ["Nathan Goldbaum"]
+edition = "2021"
+
+[lib]
+name = "advent_of_code_2024"
+path = "src/lib.rs"
+
+[[bin]]
+name = "aoc-2024"
+path = "src/main.rs"
+
+[dependencies]
+aoc-runner = "0.3.0"
+aoc-runner-derive = "0.3.0"
+itertools = "0.13.0"

@@ -1,0 +1,22 @@
+use aoc_runner_derive::{aoc, aoc_generator};
+
+#[aoc(day1, part1)]
+fn part1(input: &str) -> i32 {
+    12
+}
+
+#[aoc(day1, part2)]
+fn part2(freqs: &str) -> i32 {
+    12
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn part1_example() {}
+
+    #[test]
+    fn part2_example() {}
+}
